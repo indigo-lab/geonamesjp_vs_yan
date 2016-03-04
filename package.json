@@ -1,0 +1,16 @@
+{
+  "name": "geonamesjp_vs_yan",
+  "version": "1.0.0",
+  "description": "linkset generator between geonames.jp and yokohama art lod.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "node main.js",
+    "clean" : "rm -fR node_modules out"
+  },
+  "author": "indigo-lab",
+  "license": "MIT",
+  "dependencies" : {
+     "request": "*"
+  }
+}
