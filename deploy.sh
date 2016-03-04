@@ -5,7 +5,7 @@ rm -rf out || exit 0;
 mkdir out;
 
 npm install
-npm run build > out/geonamesjp_vs_yan.jsonld
+node main.js > out/geonamesjp_vs_yan.jsonld
 
 # go to the out directory and create a *new* Git repo
 cd out
